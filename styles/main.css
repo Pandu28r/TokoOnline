@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #007bff;
+    padding: 10px;
+    color: white;
+  }
+  
+  nav button {
+    background-color: white;
+    border: none;
+    margin: 5px 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+
+  
+  #konten {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .konten-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Gaya Umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}

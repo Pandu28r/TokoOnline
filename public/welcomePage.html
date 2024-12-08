@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcome-page">
+        <h1>Selamat Datang di Toko Online</h1>
+        <h2>Pilih Akun untuk Login</h2>
+        <ul id="daftar-user"></ul>
+    </div>
+    
+
+    <div id="main-app" style="display: none;">
+        <div id="topbar">
+            <button onclick="loadAllProduk()">All Produk</button>
+            <button onclick="loadProdukKategori(1)">Kategori 1</button>
+            <button onclick="loadProdukKategori(2)">Kategori 2</button>
+            <button onclick="loadProdukKategori(3)">Kategori 3</button>
+            <button onclick="loadProdukKategori(4)">Kategori 4</button>
+            <button onclick="loadProdukDisukai()">Produk yang Disukai</button>
+            <button onclick="loadKeranjang()">Keranjang</button>
+            <button onclick="logout()">Logout</button>
+
+        </div>
+        <div id="konten"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
